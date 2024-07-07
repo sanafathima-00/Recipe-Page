@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(255, 228, 196, 0.575);
+}
+.container{
+    background-color: white;
+    height: 80%;
+    width: 43%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 30%;
+    margin-left: 30%;
+    border-radius: 25px;
+}
+.fit{
+    padding: 5%;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 50%; 
+    width: 100%;
+    border-radius: 15px;
+}
+ul li{
+    padding-left: 15px;
+}
+li::marker {
+    color: rgb(130, 60, 60);
+}
+#heading{
+    font-size: 2.5rem;
+    font-family: 'Georgia';
+    font-weight: 700;
+    padding-top: 10px;
+}
+#intro{
+    font-size: 0.90rem;
+    font-family: 'Segoe UI';
+}
+.prep-time{
+    background-color: #fff3ff;
+    padding: 2px;
+    font-family: 'Segoe UI';
+    border-radius: 15px;
+}
+#prep-time-heading{
+    padding-left: 10px;
+    font-size: 0.95rem;
+    font-weight: 650;
+    color: #4e001a;
+}
+#prep-time-list{
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding-left: 30px;
+    color: rgb(85, 85, 85);
+    line-height: 20px;
+}
+#ingredients-heading{
+    font-family: 'Georgia';
+    font-size: 1.75rem;
+    font-weight: 650;
+    color: rgb(130, 60, 60);
+}
+#ingredients-list{
+    font-size: 0.85rem;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    color: rgb(85, 85, 85);
+    padding-left: 20px;
+}
+#instructions-heading{
+    font-family: 'Georgia';
+    font-size: 1.75rem;
+    font-weight: 650;
+    color: rgb(130, 60, 60);
+}
+#instructions-list{
+    font-size: 0.85rem;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    color: rgb(85, 85, 85);
+    padding-left: 20px;
+    list-style-type: decimal;
+}
+#nutrition-heading{
+    font-family: 'Georgia';
+    font-size: 1.75rem;
+    font-weight: 650;
+    color: rgb(130, 60, 60);
+}
+#nutrition-discription{
+    font-size: 0.85rem;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    color: rgb(85, 85, 85);
+}
+table{
+    font-size: 0.85rem;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    color: rgb(85, 85, 85);
+    padding-left: 20px;
+}
